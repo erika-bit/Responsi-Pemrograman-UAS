@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,6 +7,10 @@ namespace ProjectProduk
 {
     public class Produk
     {
-        // PERINTAH: lengkapi property class produk, sesuai petunjuk soal
+        public string KodeProduk { get; set; }
+        public string NamaProduk { get; set; }
+        public double HargaBeli { get; set; }
+        public double HargaJual { get; set; }
+
     }
 }
